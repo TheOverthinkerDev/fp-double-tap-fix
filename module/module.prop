@@ -1,0 +1,6 @@
+id=fp_double_tap_fix
+name=Fingerprint Double-Tap Fix (K40S port)
+version=v1.0
+versionCode=1
+author=K40s
+description=Sửa tính năng chạm 2 lần vào cảm biến vân tay cạnh. Kernel port làm rơi phím double-tap (GF key 6) của HAL Goodix; daemon fpdtap đọc /dev/kmsg và phát lại thành BTN_C trên thiết bị uinput vendor 0666/product 0888 mà HyperOS chờ.
